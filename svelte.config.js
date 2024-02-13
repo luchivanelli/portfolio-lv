@@ -9,6 +9,6 @@ export default {
     adapter: adapter()
   },
   paths: {
-    base: process.env.NODE_ENV === 'production' ? 'https://luchivanelli.github.io/portfolio-lv/' : '',
+    base: process.env.NODE_ENV === 'production' ? '/portfolio-lv/' : '',
   }
 }
