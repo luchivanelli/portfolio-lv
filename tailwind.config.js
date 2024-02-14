@@ -5,6 +5,7 @@ export default {
     extend: {
       'colors': {
         'card': '#00000070',
+        'modal': '#000000b3'
       }
     },
   },

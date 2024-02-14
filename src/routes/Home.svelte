@@ -9,10 +9,10 @@
         <!-- svelte-ignore a11y-img-redundant-alt -->
         <img src={img} alt="image-home" class="w-60 mt-4 lg:flex justify-center mx-auto lg:w-72"/>
     </div>
-    <div class="bg-purple-500 min-h-full lg:col-span-2 p-2 grid place-content-center">
-        <div class="relative m-4 lg:m-10">
-            <h3 class="text-5xl lg:text-6xl shad text-center text-purple-300 font-extrabold tracking-wider opacity-40">About me</h3>
-            <p class="title font-semibold text-3xl lg:text-4xl opacity-100 tracking-wider absolute top-1/2 bottom-4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">About me</p>
+    <div class="bg-purple-500 min-h-full lg:col-span-2 p-2 grid place-content-center lg:gap-2">
+        <div class="relative">
+            <h3 class="text-5xl text-center text-purple-300 font-extrabold tracking-wider opacity-40">About me</h3>
+            <p class="title font-semibold text-3xl opacity-100 tracking-wider absolute top-1/2 bottom-4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">About me</p>
         </div>
         <div class="border-2 border-purple-300 bg-card backdrop-blur-xl m-4 p-2 rounded-xl max-w-80 lg:py-4 lg:pb-6">
             <p class="text-lg py-1 px-2 font-normal text-white">Junior web developer, specialized in React. I studied Systems Engineering for 2 years at the National Technological University of Rosario</p>
