@@ -15,10 +15,10 @@
 </script>
 
 
-<div class="flex flex-col max-w-48 relative border-2 border-yellow-100 transition-all lg:max-w-64">
+<div class="flex flex-col max-w-56 relative transition-all lg:max-w-64">
     <img src={img} alt="project img" class=""/>
-    <p class="absolute bottom-0 text-yellow-100 z-20 p-1 pl-2 text-sm tracking-wide lg:text-lg">{name}</p>
-    <button on:click={(e)=>handleModal(name,skills,description,deploy,repository)} class="hidden text-yellow-500 absolute top-0 right-0 left-0 bottom-0 py-1 px-3 font-semibold z-30 tracking-wider lg:text-lg">See more</button>
+    <p class="absolute bottom-0 text-yellow-100 z-20 p-1 pl-2 text-md tracking-wide lg:text-lg">{name}</p>
+    <button on:click={(e)=>handleModal(name,skills,description,deploy,repository)} class="hidden text-white absolute top-0 right-0 left-0 bottom-0 py-1 px-3 font-semibold z-30 tracking-wider lg:text-lg">See more</button>
 </div>
 <Modal/>
 
@@ -32,10 +32,6 @@
         top:0;
         left:0;
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.055) 0%,rgb(0, 0, 0) 100%);
-    }
-
-    div:hover {
-        border-color: #000;
     }
 
     div:hover button {
